@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: authorized_keys
+  description: Public keys for rackers
+  annotations:
+    business-unit: EverHealth
+    github.com/project-slug: drchrono/authorized_keys
+    product: DRC
+spec:
+  type: service
+  lifecycle: production
+  owner: EverHealth
+  implementation:
+    languages: []
